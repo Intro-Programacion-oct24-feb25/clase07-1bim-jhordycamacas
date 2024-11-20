@@ -24,7 +24,7 @@ public class Ejemplo031 {
         entrada.useLocale(Locale.US);
         int limite = 5;
         int contador = 1;
-        double suma = 0;
+        int suma = 0;
         int valor_ingresado;
         double promedio;
         

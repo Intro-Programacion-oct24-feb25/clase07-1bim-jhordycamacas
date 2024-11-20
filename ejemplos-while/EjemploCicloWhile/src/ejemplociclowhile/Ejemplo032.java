@@ -24,7 +24,7 @@ public class Ejemplo032 {
         entrada.useLocale(Locale.US);
         int limite = 5;
         int contador = 1;
-        double suma = 0;
+        double suma = 0;//se pone double por que si se calcula dos enteros el resultado ser aun entero, siendo incorrecto
         int valor_ingresado;
         double promedio;
         
@@ -36,7 +36,7 @@ public class Ejemplo032 {
             contador = contador + 1;
         }
         promedio = suma / limite;
-        System.out.printf("La suma final es %d\n", suma);
+        System.out.printf("La suma final es %.2f\n", suma);
         System.out.printf("EL promedio final es %.2f\n", promedio);
 
     }
