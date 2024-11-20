@@ -13,7 +13,7 @@ import java.util.Scanner;
  *
  * @author reroes
  */
-public class Ejemplo031 {
+public class Ejemplo032 {
 
     /**
      * @param args the command line arguments
