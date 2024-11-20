@@ -37,7 +37,7 @@ public class Ejemplo051 {
                     + "número %d\n", contador);
             calificacion = entrada.nextDouble();
             suma_total = suma_total + calificacion;
-            mensajeFinal = String.format("%s%f\n", 
+            mensajeFinal = String.format("%s%.1f\n", 
                     mensajeFinal, calificacion);
             // contador
             contador = contador + 1;
@@ -45,7 +45,7 @@ public class Ejemplo051 {
         
         promedio_final = suma_total/limite;
         // System.out.printf("El promedio final es %f\n", promedio_final);
-        mensajeFinal = String.format("%s\n%f", 
+        mensajeFinal = String.format("%s\n%.1f", 
                 mensajeFinal, promedio_final);
         
         System.out.printf("%s\n", mensajeFinal);
