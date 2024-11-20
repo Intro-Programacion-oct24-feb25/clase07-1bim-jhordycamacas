@@ -17,14 +17,14 @@ public class Ejemplo02 {
     public static void main(String[] args) {
         // TODO code application logic here
         Scanner entrada = new Scanner(System.in);
-        entrada.useLocale(Locale.US);
+        entrada.useLocale(Locale.US);//sirve para que los decimales se los tome solo con punto "."
         int limite;
         int contador = 1;
         System.out.println("Ingrese el Límite");
         limite = entrada.nextInt(); 
         while (contador <= limite){
             
-            if (contador%2 == 10) {
+            if (contador%2 != 0) {//% o MOD es para tomar el residuo de la división
                 System.out.printf("Contador %d\n", 
                     contador);
             }
