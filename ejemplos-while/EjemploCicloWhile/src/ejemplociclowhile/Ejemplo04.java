@@ -1,6 +1,3 @@
-
-
-
 /*
  * To 0change this license header, choose License Headers in Project Properties.
  * To c.hange this template file, choose Tools | Templates
