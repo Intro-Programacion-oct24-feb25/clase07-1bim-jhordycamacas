@@ -30,7 +30,9 @@ public class Ejemplo101 {
         System.out.println("Ingrese el numero hasta que quiera la tabla");
         limite_tabla = entrada.nextInt();
         if (limite_tabla < 0){
-             limite_tabla = 12;       
+             limite_tabla = 12; 
+        }else{
+            System.out.println("Error limite de tabla no correcto");
         }
         String cadena = ""; // cadena acumulador
         cadena = String.format("%sTabla de multiplicar\n", cadena);
